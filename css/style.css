@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+/* 共通部分
+---------------------*/
+html {
+    font-size: 100%;
+}
+body {
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+a {
+   text-decoration: none;
+
+.logo {
+    width: 210px ;
+}
+
+}
+img {
+    max-width: 100%;
+}
+.align-center {
+    text-align: center;
+}
+.font-english {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: normal;
+}
+.page-title,
+.heading-large {
+    font-size: 3rem;
+    text-align: center;
+}
+.page-title {
+    margin-top: 2rem;
+    line-height: normal;
+}
+.heading-large {
+    margin-bottom: 1rem;
+}
+/* ボタン*/
+.btn {
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: #0bd;
+    color: #fff;
+    border-radius: 8px;
+    padding: .75rem 1.5rem;
+    text-decoration: .5s;
+}
+.btn:hover {
+    background-color: #0090aa;
+}
+
+/* ボタンの基本スタイル */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white; /* テキストの色 */
+    background-color: #007BFF; /* ボタンの背景色 */
+    border: 2px solid #0056b3; /* 枠線の色 */
+    border-radius: 5px; /* 角を丸くする */
+    text-align: center;
+    text-decoration: none; /* 下線を消す */
+    transition: background-color 0.3s, color 0.3s; /* ホバー時のアニメーション */
+}
+
+/* ホバー時のスタイル */
+.button:hover {
+    background-color: #0056b3; /* 背景色を変更 */
+    color: #ffffff; /* テキストの色を変更 */
+}
+
+.page-header {
+    padding-top: .5rem;
+}
+
+.header-nav {
+    display: flex; /* Flexboxを有効化 */
+    justify-content: center; /* 要素を中央揃え */
+    gap: 20px; /* 要素間のスペース */
+}
+
+.header-nav li {
+    list-style: none; /* リストのマーカーを非表示 */
+}
+
+.header-nav a {
+    text-decoration: none; /* 下線を非表示 */
+    color: #333; /* テキストの色 */
+}
+.cover{
+background-size: cover;
+background-position: center bottom;
+height: 800px;
+}
+
+.cover-home{
+background-image: url("../images/cover-home-l.webp");
+}
+.about {
+    max-width: 900px;
+    padding: 3rem 1.5rem;
+    margin: 0 auto;
+    background: #f8f9fa;
+    text-align: center;
+}
+.about p {
+    margin: 1.5rem auto;
+    max-width: 700px;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.page-footer {
+    background-image: url("../images/footer-s.webp");
+    background-size: cover;
+    background-position: center ;
+    padding-top:12rem;
+}
+
+.info {
+    width: 100%;
+    max-width: 544px;
+    margin: auto;
+    padding: 0 1.5rem;
+    border-spacing: 0;
+}
+.info th,
+.info td {
+    border-bottom: 1px solid #c9c2bc;
+}
+.info th {
+    text-align: left;
+    padding: 1rem;
+    font-weight: normal;
+}
+.info td {
+    padding: 1rem 0;
+}
+.copyright {
+    background-color: #432;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 6rem;
+    color: #fff;
+}
