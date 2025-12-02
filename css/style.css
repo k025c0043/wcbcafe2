@@ -23,7 +23,7 @@ img {
 }
 .wrapper {
     max-width: 1120px;
-    margin: auto;
+    margin:  auto;
     padding: 0 1.5rem;
 }
 .align-center {
@@ -64,19 +64,19 @@ img {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
-    color: white; /* テキストの色 */
-    background-color: #007BFF; /* ボタンの背景色 */
-    border: 2px solid #0056b3; /* 枠線の色 */
-    border-radius: 5px; /* 角を丸くする */
+    color: white; 
+    background-color: #007BFF; 
+    border: 2px solid #0056b3; 
+    border-radius: 5px; 
     text-align: center;
-    text-decoration: none; /* 下線を消す */
-    transition: background-color 0.3s, color 0.3s; /* ホバー時のアニメーション */
+    text-decoration: none; 
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 /* ホバー時のスタイル */
 .button:hover {
-    background-color: #0056b3; /* 背景色を変更 */
-    color: #ffffff; /* テキストの色を変更 */
+    background-color: #0056b3; 
+    color: #ffffff; 
 }
 
 .page-header {
@@ -84,18 +84,18 @@ img {
 }
 
 .header-nav {
-    display: flex; /* Flexboxを有効化 */
-    justify-content: center; /* 要素を中央揃え */
-    gap: 20px; /* 要素間のスペース */
+    display: flex; 
+    justify-content: center; 
+    gap: 20px;
 }
 
 .header-nav li {
-    list-style: none; /* リストのマーカーを非表示 */
+    list-style: none; 
 }
 
 .header-nav a {
-    text-decoration: none; /* 下線を非表示 */
-    color: #333; /* テキストの色 */
+    text-decoration: none; 
+    color: #333; 
 }
 .cover{
 background-size: cover;
@@ -121,8 +121,6 @@ background-image: url("../images/cover-home-s.webp");
     color: #666;
     margin-bottom: 2rem;
 }
-
-
 
 .page-footer {
     background-image: url("../images/footer-s.webp");
@@ -150,50 +148,118 @@ background-image: url("../images/cover-home-s.webp");
 .info td {
     padding: 1rem 0;
 }
+
 .copyright {
     background-color: #432;
     text-align: center;
     padding: 2rem 0;
     margin-top: 6rem;
     color: #fff;
-}
-/*デスクトップ版*/
 
+}
 @media (min-width: 800px) {
-    /*見出し*/
-    .page-title {
+    .page-title{
         font-size: 5rem;
     }
-    .heading-large {
+    .heading-large{
         font-size: 4rem;
     }
-    /*ヘッダー*/
-    .page-header {
-       display: flex;
-       justify-content: space-between;
-       padding-top: 1.5rem;
-    }  
-     .main-nav {
+    .main-nav{
+        font-size: 2rem;
+    }
+}
+    .page-header{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1.5rem;
+    }
+    .main-nav{
         font-size: 2rem;
     }
 
-    .cover-home{
-        background-image: url("../images/cover-home-l.webp");
+
+/*ヘッダーカバー画像*/
+
+.cover{
+    background-size: cover;
+    background-position: center bottom;
+    height: 528px;
+    margin-bottom: 4rem;
+}
+@media (min-width: 800px) {
+    .page-title{
+        font-size: 5rem;
     }
-    
-    .about{
-        margin: 4rem auto;
+    .heading-large{
+        font-size: 4rem;
     }
 
-    /*フッター*/
-    .page-footer {
-        background-image: url("../images/footer-l.webp");
+    .page-header{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1.5rem;
+    }
+
+    .main-nav{
+        font-size: 2rem;
+    }
+
+/*HOME*/
+
+    .cover-home{
+        background-image: url(../images/cover-home-l.webp);
+    }
+    .about{
+        margin-bottom: 4rem auto 0;
+    /*HO
+    }
+
+    /*フッダー*/
+    .page-footer{
+        background-image: url(../images/cover-home-l.webp);
         padding-top: 12rem;
     }
-    .info {
+    .info th{
         padding-left: 2.5rem;
     }
-
-
-
 }
+}
+
+
+
+    /*ヘッダーカバー画像*/
+
+    .cover{
+        background-size:cover;
+        background-position: center bottom;
+        height: 800px;
+    }
+    .sub-cover{
+        background-size: cover;
+        background-position: center bottom;
+        height: 528px;
+        margin-bottom: 4rem;
+    }
+    .about p{
+        margin-bottom: 3rem;
+    }
+     /*HOME*/
+
+    .cover-home{
+        background-image: url(../images/cover-home-s.jpg);
+    }
+    .about{
+        max-width: 736px;
+        padding: 0 1.5rem;
+        margin-bottom: 3rem auto 4rem;
+    }
+    .about p{
+        margin-bottom: 3rem;
+        
+    }
+    
+    /*NEWS*/
+    .cover-news{
+        background-image: url(../images/cover-home-s.webp);
+    }
+   
