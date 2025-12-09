@@ -187,53 +187,7 @@ background-image: url("../images/cover-home-s.webp");
     height: 528px;
     margin-bottom: 4rem;
 }
-@media (min-width: 800px) {
-    .page-title{
-        font-size: 5rem;
-    }
-    .heading-large{
-        font-size: 4rem;
-    }
-    .post-title{
-        font-size: 2rem;
-    }
 
-    .page-header{
-        display: flex;
-        justify-content: space-between;
-        padding-top: 1.5rem;
-    }
-
-    .main-nav{
-        font-size: 2rem;
-    }
-    .sub-cover{
-        height: 400px;
-        margin-bottom:6rem;
-    }
-
-/*HOME*/
-
-    .cover-home{
-        background-image: url(../images/cover-home-l.webp);
-    }
-    .about{
-        margin-bottom: 4rem auto 0;
-    }
-    .cover-news{
-        background-image: url(../images/cover-news-l.webp);
-    }
-
-/*フッダー*/
-    .page-footer{
-        background-image: url(../images/cover-home-l.webp);
-        padding-top: 12rem;
-    }
-    .info th{
-        padding-left: 2.5rem;
-    }
-
-}
 
 
 
@@ -329,3 +283,69 @@ background-image: url("../images/cover-home-s.webp");
     .side-menu a:hover::after{
         color:  #0bd;
     }
+
+    @media (min-width: 800px) {
+        .page-title{
+            font-size: 5rem;
+        }
+        .heading-large{
+            font-size: 4rem;
+        }
+        .post-title{
+            font-size: 2rem;
+        }
+
+        .page-header{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 1.5rem;
+        }
+
+        .main-nav{
+            font-size: 2rem;
+        }
+        .sub-cover{
+            height: 400px;
+            margin-bottom:6rem;
+        }
+
+   /*HOME*/
+
+        .cover-home{
+            background-image: url(../images/cover-home-l.webp);
+        }
+        .about{
+            margin-bottom: 4rem auto 0;
+        }
+        .cover-news{
+            background-image: url(../images/cover-news-l.webp);
+        }
+        .news-contents{
+            display:flex;
+            justify-content: space-between;
+        }
+        .post{
+            width: 60%;
+            order: 2;
+        }
+        .sidebar{
+            width: 22%;
+            order:3;
+        }
+        .ad{
+            order:1;
+        }
+        .sidebar .heading-medium{
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+
+/*フッダー*/
+        .page-footer{
+            background-image: url(../images/cover-home-l.webp);
+            padding-top: 12rem;
+        }
+        .info th{
+            padding-left: 2.5rem;
+        }
+}
