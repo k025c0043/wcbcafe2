@@ -34,7 +34,7 @@ img {
     font-weight: normal;
 }
 .page-title,
-.heading-large
+.heading-large,
 .heading-medium {
     font-size: 3rem;
     text-align: center;
@@ -194,6 +194,9 @@ background-image: url("../images/cover-home-s.webp");
     .heading-large{
         font-size: 4rem;
     }
+    .post-title{
+        font-size: 2rem;
+    }
 
     .page-header{
         display: flex;
@@ -204,6 +207,10 @@ background-image: url("../images/cover-home-s.webp");
     .main-nav{
         font-size: 2rem;
     }
+    .sub-cover{
+        height: 400px;
+        margin-bottom:6rem;
+    }
 
 /*HOME*/
 
@@ -212,10 +219,12 @@ background-image: url("../images/cover-home-s.webp");
     }
     .about{
         margin-bottom: 4rem auto 0;
-    /*HO
+    }
+    .cover-news{
+        background-image: url(../images/cover-news-l.webp);
     }
 
-    /*フッダー*/
+/*フッダー*/
     .page-footer{
         background-image: url(../images/cover-home-l.webp);
         padding-top: 12rem;
@@ -223,7 +232,7 @@ background-image: url("../images/cover-home-s.webp");
     .info th{
         padding-left: 2.5rem;
     }
-}
+
 }
 
 
@@ -301,4 +310,22 @@ background-image: url("../images/cover-home-s.webp");
     .post- p {
         margin-bottom: 1.5rem;
         line-height: 2;
+    }
+
+    /*サイドバー*/
+    .side-menu {
+        list-style: none;
+        text-align: center;
+        margin-bottom: 4rem  
+    }
+    .side-menu li{
+        border-bottom:1px solid #c9c2bc;
+    }
+    .side-menu a{
+        color: #432;
+        display:  blosk;
+        padding :irem
+    }
+    .side-menu a:hover::after{
+        color:  #0bd;
     }
